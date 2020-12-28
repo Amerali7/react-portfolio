@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { browserHistory } from 'react-router';
+import Gallery from './Gallery';
 
 class Header extends Component {
   render() {
@@ -14,6 +16,7 @@ class Header extends Component {
     }
 
     return (
+     
       <header id="home">
 
       <nav id="nav-wrap">
@@ -26,7 +29,9 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#about">About</a></li>
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+            
+            
+            <li><a className="smoothscroll" href="#Gallery">Gallery</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
 

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+//<Testimonials data={this.state.resumeData.testimonials}/>
+//<li><a className="smoothscroll" href="#testimonials">Quotes</a></li>
 
 class Testimonials extends Component {
   render() {
